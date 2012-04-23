@@ -1,0 +1,3 @@
+[submodule "SHETSource"]
+	path = SHETSource
+	url = git://github.com/18sg/SHETSource.git
