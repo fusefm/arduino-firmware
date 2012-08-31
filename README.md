@@ -7,7 +7,13 @@ This repo uses submodules. either use the `--recursive` flag for `git clone`, or
 git submodule update --init
 ```
 
-after cloning.
+after cloning. You may need to run
+
+```
+git submodule update
+```
+
+after pulling to keep them up to date.
 
 Building
 --------
