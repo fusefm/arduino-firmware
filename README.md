@@ -20,7 +20,7 @@ You will need:
 Run something like the following to build and upload in one go:
 
 ```
-scons ARDUINO_BOARD=mega2560 ARDUINO_HOME=/usr/share/arduino-1.0/ ARDUINO_PORT=/dev/ttyACM0 upload
+scons upload
 ```
 
 Omit the `upload` to just build.
@@ -28,7 +28,7 @@ Omit the `upload` to just build.
 Hacking
 -------
 
-`arduino/arduino.ino` is the file you want.
+`arduino/arduino.cpp` is the file you want.
 
 Use https://github.com/18sg/SHETSource/blob/master/arduino/client/client_example.cpp for reference.
 
