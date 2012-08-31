@@ -11,4 +11,7 @@ core = env.ArduinoCore()
 shet_lib = env.ArduinoLibrary("shetsource", "../SHETSource/arduino/lib")
 sketch = env.Sketch("arduino", ["arduino.cpp", shet_lib, core])
 
+env["AVRDUDECMD"] = ["supervisorctl stop shetsource",
+                     env["AVRDUDECMD"],
+                     "supervisorctl start shetsource"]
 env.Upload(sketch)
