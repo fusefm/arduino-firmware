@@ -1,4 +1,5 @@
 .sconsign.dblite
 *.elf
 *.hex
+*.o
 build
